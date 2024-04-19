@@ -106,11 +106,15 @@ const removeEntry = (sort) => {
   &-btn {
     margin-bottom: 20px;
     padding: 20px;
+    border: none;
     background: #abaa1a;
     width: fit-content;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 20px
+    font-size: 20px;
+    &:hover {
+      background: #c7c512;
+    }
   }
 }
 </style>
