@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name" : "Работа",
+    "type" : "dir",
+    "contents" : [
+      {
+        "id": 1,
+        "name": "picture1.png",
+        "type" : "img"
+      },
+      {
+        "id": 2,
+        "name": "picture2.png",
+        "type" : "img"
+      },
+      {
+        "id": 3,
+        "name": "picture3.png",
+        "type" : "img"
+      },
+      {
+        "id": 4,
+        "name": "Хранилище",
+        "type" : "dir",
+        "contents": [
+          {
+            "id": 1,
+            "name": "Как я провел лето.doc",
+            "type" : "file"
+          },
+          {
+            "id": 2,
+            "name": "Планы на следующее лето.doc",
+            "type" : "file"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Пустая папка",
+        "type" : "dir",
+        "contents" : []
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "name": "Развлечения",
+    "type": "dir",
+    "contents" : [
+      {
+        "id": 1,
+        "name": "Личные",
+        "type": "dir",
+        "contents": [
+          {
+            "id": 1,
+            "name": "Документ.doc",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Семейные",
+        "type": "dir",
+        "contents": [
+          {
+            "id": 1,
+            "name": "Документ.doc",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "C друзьями",
+        "type": "dir",
+        "contents": [
+          {
+            "id": 1,
+            "name": "Документ.doc",
+            "type": "file"
+          },
+          {
+            "id": 2,
+            "name": "Планы на следующее лето.doc",
+            "type" : "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Записки.txt",
+    "type": "file"
+  }
+]
