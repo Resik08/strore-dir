@@ -53,7 +53,7 @@ const processed = () => {
         </div>
       </div>
       <input class="modal__body-input" type="text" placeholder="Имя файла" v-model="localFileDate.name">
-      <button @click="processed" class="modal__body-btn" :style="{background: isValid ? '#e44' : 'gray'}">Ок</button>
+      <button @click="processed" class="modal__body-btn" style="width: 100%" :style="{background: isValid ? '#e44' : 'gray'}">Ок</button>
     </div>
       <div v-else>
         <div class="modal-message"> {{nameType ? nameType : 'Фаил'}} с таким именем уже существует в текущей директории, придумайте другое!</div>
@@ -80,7 +80,6 @@ const processed = () => {
     background: white;
     padding: 30px;
     border-radius: 6px;
-
     &-title {
       font-weight: 600;
       font-size: 20px;
@@ -103,7 +102,7 @@ const processed = () => {
       border-radius: 6px;
       padding: 15px;
       border: none;
-      width: 100%;
+
       margin-top: 20px;
       text-align: center;
       cursor: pointer;
@@ -132,8 +131,10 @@ const processed = () => {
     }
   }
   &-message {
-    text-align: center; margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
     font-size: 20px;
+
   }
 }
 </style>
